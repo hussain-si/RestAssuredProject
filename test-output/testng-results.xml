@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="REST API Tests" duration-ms="9281" started-at="2024-01-07T12:58:58 IST" finished-at="2024-01-07T12:59:07 IST">
+    <groups>
+    </groups>
+    <test name="Validation for Posts and Users" duration-ms="9281" started-at="2024-01-07T12:58:58 IST" finished-at="2024-01-07T12:59:07 IST">
+      <class name="org.project.testCaseValidation.validationForPost">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.project.testCaseValidation.validationForPost@39fb3ab6]" name="setup" is-config="true" duration-ms="377" started-at="2024-01-07T12:58:58 IST" finished-at="2024-01-07T12:58:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createPostTest()[pri:0, instance:org.project.testCaseValidation.validationForPost@39fb3ab6]" name="createPostTest" duration-ms="2571" started-at="2024-01-07T12:58:58 IST" finished-at="2024-01-07T12:59:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPostTest -->
+        <test-method status="PASS" signature="deletePostTest()[pri:0, instance:org.project.testCaseValidation.validationForPost@39fb3ab6]" name="deletePostTest" duration-ms="1100" started-at="2024-01-07T12:59:01 IST" finished-at="2024-01-07T12:59:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePostTest -->
+        <test-method status="PASS" signature="getPostByIdTest()[pri:0, instance:org.project.testCaseValidation.validationForPost@39fb3ab6]" name="getPostByIdTest" duration-ms="255" started-at="2024-01-07T12:59:02 IST" finished-at="2024-01-07T12:59:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPostByIdTest -->
+        <test-method status="PASS" signature="getPostsTest()[pri:0, instance:org.project.testCaseValidation.validationForPost@39fb3ab6]" name="getPostsTest" duration-ms="322" started-at="2024-01-07T12:59:02 IST" finished-at="2024-01-07T12:59:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPostsTest -->
+        <test-method status="PASS" signature="updatePostTest()[pri:0, instance:org.project.testCaseValidation.validationForPost@39fb3ab6]" name="updatePostTest" duration-ms="1248" started-at="2024-01-07T12:59:03 IST" finished-at="2024-01-07T12:59:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePostTest -->
+      </class> <!-- org.project.testCaseValidation.validationForPost -->
+      <class name="org.project.testCaseValidation.validationForUser">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.project.testCaseValidation.validationForUser@6276ae34]" name="setup" is-config="true" duration-ms="0" started-at="2024-01-07T12:59:04 IST" finished-at="2024-01-07T12:59:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createUserTest()[pri:0, instance:org.project.testCaseValidation.validationForUser@6276ae34]" name="createUserTest" duration-ms="1114" started-at="2024-01-07T12:59:04 IST" finished-at="2024-01-07T12:59:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method status="PASS" signature="deleteUserTest()[pri:0, instance:org.project.testCaseValidation.validationForUser@6276ae34]" name="deleteUserTest" duration-ms="530" started-at="2024-01-07T12:59:05 IST" finished-at="2024-01-07T12:59:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+        <test-method status="PASS" signature="getUserByIdTest()[pri:0, instance:org.project.testCaseValidation.validationForUser@6276ae34]" name="getUserByIdTest" duration-ms="290" started-at="2024-01-07T12:59:06 IST" finished-at="2024-01-07T12:59:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserByIdTest -->
+        <test-method status="PASS" signature="getUsersTest()[pri:0, instance:org.project.testCaseValidation.validationForUser@6276ae34]" name="getUsersTest" duration-ms="276" started-at="2024-01-07T12:59:06 IST" finished-at="2024-01-07T12:59:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersTest -->
+        <test-method status="PASS" signature="updateUserTest()[pri:0, instance:org.project.testCaseValidation.validationForUser@6276ae34]" name="updateUserTest" duration-ms="1164" started-at="2024-01-07T12:59:06 IST" finished-at="2024-01-07T12:59:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+      </class> <!-- org.project.testCaseValidation.validationForUser -->
+    </test> <!-- Validation for Posts and Users -->
+  </suite> <!-- REST API Tests -->
+</testng-results>

@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="REST API Tests">
+
+<test name="Validation for Posts and Users">
+    <classes>
+        <class name="org.project.testCaseValidation.validationForAlbum">
+        </class>
+        <class name="org.project.testCaseValidation.validationForComment">
+        </class>
+        <class name="org.project.testCaseValidation.validationForPhotos">
+        </class>
+        <class name="org.project.testCaseValidation.validationForPost">
+        </class>
+        <class name="org.project.testCaseValidation.validationForTodo">
+        </class>
+        <class name="org.project.testCaseValidation.validationForUser">
+        </class>
+    </classes>
+</test>
+
+</suite>
